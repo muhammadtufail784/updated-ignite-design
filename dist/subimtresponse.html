@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@heroicons/outline@latest/css/heroicons.min.css">
+
+    <style>
+        .custom-select {
+            appearance: none;
+            /* Removes default arrow */
+            padding: 0.5rem 1rem;
+            /* Adjust padding as needed */
+            border: 1px solid #ccc;
+            /* Border style */
+            border-radius: 4px;
+            /* Rounded corners */
+            background-color: white;
+            /* Background color */
+            font-size: 14px;
+            /* Font size */
+        }
+
+        .custom-select option:checked {
+            background-color: #e2e8f0;
+            /* Background color of the selected option */
+        }
+    </style>
+</head>
+
+<body class="bg-slate-200 ">
+ 
+    <div class="max-w-screen-lg mx-auto">
+      <div class="m-4 sm:m-8 md:m-12">
+        <div class="bg-white rounded-lg shadow-md px-6 py-10">
+          <div class="flex items-center mt-10 mb-4">
+            <a href="#" class="flex items-center text-gray-600 hover:text-gray-800">
+              <svg class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.707,5.293C10.512,5.098,10.256,5,10,5s-0.512,0.098-0.707,0.293L4.414,10l5.293,5.293C9.488,15.902,9.744,16,10,16s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L7.414,10.707l3.293-3.293C11.098,6.316,11.098,5.684,10.707,5.293z" />
+              </svg>
+              Go Back
+            </a>
+            <p class="text-[#F59321] ml-4">Ticket #02322</p>
+          </div>
+          <hr class="my-4">
+          <h2 class="text-lg font-medium mt-10 mb-5 font-public">Technical Issues with Portal</h2>
+          <p class="text-gray-700 mb-2">I received an email stating that my account has been suspended due to a violation of the portal's terms of use. However, I have not done anything wrong and would like to know why my account was suspended and how to resolve the issue. I received an email stating that my account has been suspended due to a violation of the portal's terms of use.</p>
+          <button class="btn bg-[#F5932140] text-black p-3 rounded-md hover:bg-orange-300 mt-7 text-sm">Screenshot.pdf</button>
+        </div>
+      </div>
+      
+      <div class="m-4 sm:m-8 md:m-12">
+        <div class="bg-white rounded-lg shadow-md px-6 py-10">
+          <div class="flex items-center mb-4">
+            <h4 class="font-public">Add Remarks</h4>
+          </div>
+          <hr class="my-4">
+          <p class="text-base mt-6 mb-2 sm:text-lg">Update Status</p>
+          <div class="relative sm:mr-32 ">
+            <input class="block w-full px-4 py-2 pr-6 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 " list="options" placeholder="In Review">
+            <datalist id="options">
+              <option value="Option 1"></option>
+              <option value="Option 2"></option>
+              <option value="Option 3"></option>
+            </datalist>
+        </datalist>
+        <svg class="absolute top-3 right-3 pointer-events-none h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5 5 5-5"></path>
+        </svg>
+      </div>
+      <p class="text-sm mt-6 mb-2">Add Remarks</p>
+      <textarea class="border rounded-tl-lg rounded-tr-lg rounded-bl-lg pl-4 pt-3" name="" id="" cols="80" rows="5" placeholder="Write in 250 words..."></textarea>
+      <div class=" flex justify-end">
+      <button class="bg-[#F59321] pl-10 pr-10 p-3 rounded-lg flex mt-4 sm:mt-6 text-white text-right">Take Action</button>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+
+</html>

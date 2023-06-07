@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@heroicons/outline@latest/css/heroicons.min.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body class="bg-slate-200 ">
+
+
+
+
+    <!-- ==================navbar Filter start================== -->
+
+    <nav class="bg-[#424342] m-20 mb-5 rounded-lg">
+        <div class="max-w-7xl  sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-[100px]">
+                <div class="flex">
+                    <!-- <div class="flex-shrink-0">
+                        <a href="/" class="text-white">
+                            Insert your logo or brand name here
+                        </a>
+                    </div> -->
+                    <div class="hidden md:block mb-3 ">
+                        <p class="text-[#F59321] ml-[52px] text-sm font-sm mb-[-10px] ">Filter by:</p>
+                        <ul class="ml-10 flex items-baseline space-x-4 font-medium font-lg">
+                            <li>
+
+                                <div class="flex items-center">
+
+                                    <a href="/date"
+                                        class="px-3 py-2 rounded-md text-[16px]  text-[#F59321]  font-medium font-lg">11
+                                        - 50</a>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                        class="h-6 w-6 text-white  ml-[-10px] inline-block align-middle">
+                                        <path fill-rule="evenodd"
+                                            d="M6.293 7.707a1 1 0 011.414 0L10 10.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+
+                                </div>
+                            </li>
+                            <li>
+                                <a href="/date"
+                                    class="px-3 py-2 rounded-md text-[16px]  text-[#F59321]  font-medium font-lg">NIC
+                                    Isb, Pew...</a>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="h-6 w-6 text-white  ml-[-10px] inline-block align-middle">
+                                    <path fill-rule="evenodd"
+                                        d="M6.293 7.707a1 1 0 011.414 0L10 10.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </li>
+
+                            <li>
+                                <a href="/date"
+                                    class="px-3 py-2 rounded-md text-[16px]  text-[#F59321] font-medium font-lg">Fintech,
+                                    IT, Rob...</a>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="h-6 w-6 text-white  ml-[-10px] inline-block align-middle">
+                                    <path fill-rule="evenodd"
+                                        d="M6.293 7.707a1 1 0 011.414 0L10 10.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </li>
+                            <li>
+                                <a href="/date"
+                                    class="px-3 py-2 rounded-md text-[16px] text-[#F59321] font-medium font-lg">$ 20,000
+                                    - 50,000</a>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="h-6 w-6 text-white  ml-[-10px] inline-block align-middle">
+                                    <path fill-rule="evenodd"
+                                        d="M6.293 7.707a1 1 0 011.414 0L10 10.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </li>
+                            <li>
+                                <a href="/date"
+                                    class="px-3 py-2 rounded-md text-[16px]  text-white  font-medium font-lg">Business
+                                    type</a>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="h-6 w-6 text-white  ml-[-10px] inline-block align-middle">
+                                    <path fill-rule="evenodd"
+                                        d="M6.293 7.707a1 1 0 011.414 0L10 10.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </li>
+
+
+                            <li>
+                                <a href="/contact"
+                                    class="px-3 py-2 rounded-md  text-[#F59321]  font-bold text-[16px]">More Filters</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-4 flex items-center md:ml-6">
+    </nav>
+
+
+    <!-- ==================navbar Filter end==================== -->
+
+    <!-- ==================check box tiles start==================== -->
+    <div class="m-20">
+        <div class="bg-[#F5ECE0] pasix rounded-lg  shadow-md  pt-0 w-[300px]">
+
+            <div class="p-5 pt-3">
+                <h2 class="text-lg font-medium mb-6 font-public">Company Size</h2>
+
+                <p class="mb-4">1 - 11</p>
+                <hr class="mb-4">
+                <p class="mb-4">11 - 50</p>
+                <hr class="mb-4">
+                <p class="mb-4">50 - 100</p>
+                <hr class="mb-4">
+                <p class="mb-4">100 - 1000</p>
+                <hr class="mb-4">
+
+            </div>
+        </div>
+    </div>
+    <!-- ==================check box tiles end==================== -->
+
+    <!-- ==================check box with square box tiles start==================== -->
+    <div class="m-20">
+        <div class="bg-[#F5ECE0] pasix rounded-lg  shadow-md  pt-0 w-[300px]">
+
+            <div class="p-5 pt-3">
+                <h2 class="text-lg font-medium mb-6 font-public">Company Size</h2>
+
+                <!--Default checkbox-->
+                <div class="flex items-center">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">Select All</label>
+                </div>
+                <hr class="mb-4 mt-4">
+
+                <div class="flex items-center">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">All NIC Startups</label>
+                </div>
+                <hr class="mb-4 mt-4">
+
+                <div class="flex items-center">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">All Non-NIC Startups</label>
+                </div>
+                <hr class="mb-4 mt-4">
+                <div class="flex items-center">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">NIC Peshawar</label>
+                </div>
+                <hr class="mb-4 mt-4">
+                <div class="flex items-center">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">NIC Islamabad</label>
+                </div>
+                <hr class="mb-4 mt-4">
+                <div class="flex items-center">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">NIC Karachi</label>
+                </div>
+                <hr class="mb-4 mt-4">
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- ==================check box with square box tiles end==================== -->
+
+
+    <!-- ======================== large  tile start========= -->
+
+    <div class="m-[20px]">
+        <div class="bg-white pasix rounded-lg  shadow-md  pt-0 w-[350px]">
+            <div class=" flex justify-center">
+                <button
+                    class=" bg-[#F59321] p-1 pl-10 pr-10 rounded-[20px] ml-[-50px]  mt-[20px] pt-2 pb-2  text-white    "><span>deadline:</span>
+                    June 15, 2023</button>
+            </div>
+
+
+            <div class="p-5 pt-3">
+                <h2 class="text-lg font-medium mb-2 font-public">Ignite Startup Delegation to Silicon Valley</h2>
+                <h2 class="text-[#F59321] mb-2 ">June 1-5, 2023</h2>
+
+                <span class="text-[#9C9996] text-lg">location:</span>
+                <p class=" tiles text-gray-700 mb-2 text-lg">San Francisco, California, USA</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================== large button end========= -->
+
+
+    <!-- ====================check box large card start =================== -->
+
+    <div class="w-[900px] ">
+        <div class="m-4 sm:m-8 md:m-12 ">
+            <div class="bg-white rounded-lg shadow-md px-6 py-10">
+                <div class="flex items-center mt-10 mb-4">
+                    <a href="#" class="flex items-center text-gray-600 hover:text-gray-800">
+                        <svg class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10.707,5.293C10.512,5.098,10.256,5,10,5s-0.512,0.098-0.707,0.293L4.414,10l5.293,5.293C9.488,15.902,9.744,16,10,16s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L7.414,10.707l3.293-3.293C11.098,6.316,11.098,5.684,10.707,5.293z" />
+                        </svg>
+                        Go Back
+                    </a>
+                    <p class="text-[#F59321] ml-4">Ticket #02322</p>
+                </div>
+                <hr class="my-4">
+                <h2 class="text-lg font-medium mt-10 mb-5 font-public">Take Data from Basic Profile</h2>
+                <div class="flex items-center mt-4 mb-4">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">Name</label>
+                </div>
+
+
+                <div class="flex items-center mt-4 mb-4">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">Email</label>
+                </div>
+
+
+                <h2 class="text-lg font-medium mt- mb-5 font-public">Take Data from Startup Profile</h2>
+
+                <div class="flex items-center mt-4 mb-4">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">Startup Name</label>
+                </div>
+
+                <div class="flex items-center mt-4 mb-4">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">Starting Date</label>
+                </div>
+
+                <div class="flex items-center mt-4 mb-4">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">Legal Status</label>
+                </div>
+
+                <div class="flex items-center mt-4 mb-4">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">Jobs Created</label>
+                </div>
+                <div class="flex items-center mt-4 mb-4">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">Current Revenue</label>
+                </div>
+                <div class="flex items-center mt-4 mb-4">
+                    <input type="checkbox" required
+                        class="appearance-none checked: checked:border-orange-500 h-5 w-5 border-[2px] border-solid border-[#ccc] rounded-[4px] bg-[#F5ECE0] cursor-pointer checked:before:content-['✓'] checked:before:text-orange-500 checked:before:relative checked:before:-top-[6px] checked:before:left-[1px] checked:before:text-sm" />
+                    <label for="myCheckbox" class="ml-2">Number of Customers/ Users</label>
+                </div>
+
+                <div class="flex justify-end">
+                    <button
+                        class=" bg-[#F59321] text-white p-3 pl-10 pr-10 rounded-md hover:bg-orange-300  text-sm">Next</button>
+                </div>
+            </div>
+            <!-- ====================check box large card start =================== -->
+
+
+            <!-- ======================== horizental image tile with button start========= -->
+
+
+
+            <div class="m-20 ">
+                <div
+                    class="bg-white pasix rounded-lg  shadow-md flex items-center ml-[50px] justify-between    pt-0 w-[1000px]">
+                    <div class="flex mt-3 items-center">
+                        <div class="  rounded-md w ">
+                            <img src="[../images/flat.png]" class="w-20 h-20 ml-[50px]" alt="Image">
+                        </div>
+                        <div class="p-4 pt-">
+                            <h2 class="text-[22px] font-medium mb-2 font-public">Sunfarmer <span
+                                    class="text-[14px] text-[#9F9C99]">Partially Reviewed</span></h2>
+                            <h2 class="text-[#F59321] mb-2 "><span class="text-black">Submitted on:</span> 03 March,
+                                2023
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="flex mr-10 ">
+                        <div>
+                            <p class="text-[#9F9C99] -tracking-[0.5px]">Marks Obtained</p>
+                            <h2>87 /100</h2>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-[#9F9C99]">Ranking</p>
+                            <h2>1st</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ======================== horizental image tile with button end========= -->
+
+
+
+
+
+            <!-- =================================  monthly Report start =============== -->
+
+            <div class="max-w-screen-lg mx-auto w-[900px]">
+                <div class="m-4 sm:m-8 md:m-12">
+                    <div class="bg-white rounded-lg shadow-md px-6 py-10">
+                        <a href="#" class="flex items-center text-gray-600 hover:text-gray-800">
+                            <svg class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.707,5.293C10.512,5.098,10.256,5,10,5s-0.512,0.098-0.707,0.293L4.414,10l5.293,5.293C9.488,15.902,9.744,16,10,16s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L7.414,10.707l3.293-3.293C11.098,6.316,11.098,5.684,10.707,5.293z" />
+                            </svg>
+                            Go Back
+                        </a>
+                        <div class="flex justify-between">
+                            <div class="flex items-center mt-10 mb-4">
+                                <!-- <a href="#" class="flex items-center text-gray-600 hover:text-gray-800">
+                            <svg class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.707,5.293C10.512,5.098,10.256,5,10,5s-0.512,0.098-0.707,0.293L4.414,10l5.293,5.293C9.488,15.902,9.744,16,10,16s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L7.414,10.707l3.293-3.293C11.098,6.316,11.098,5.684,10.707,5.293z" />
+                            </svg>
+                            Go Back
+                        </a> -->
+                                <p class="text-[#F59321] ml-4 text-[20px] "><span class="text-black">Feedback by:</span>
+                                    Haroon Khan</p>
+                            </div>
+                            <div class="">
+                                <p class=" text-black p-3   mt-7 text-sm">Total Marks: 87/ 100</p>
+
+
+
+                            </div>
+                        </div>
+                        <hr class="my-4">
+
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Problem identification <span
+                                class="text-[#F59321]">(Score 8/10)</span></h2>
+                        <p class=" text-[#83807C]  mb-2">The approach to solve the problem is creative. Idea is novel &
+                            unique and can be implemented. Is it some new idea or a copy of another idea?</p>
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Solution -
+                            Creativity/Innovation<span class="text-[#F59321]">(Score 8/10)</span></h2>
+                        <p class=" text-[#83807C]  mb-2">Validation of business model in quantifiable terms such as
+                            local market size, expected market share, revenue forecast, revenue generated, downloads,
+                            subscribers, investment raised, etc.</p>
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public"> Addressable Market and Size
+                            <span class="text-[#F59321]">(Score 8/10)</span>
+                        </h2>
+                        <p class=" text-[#83807C]  mb-2">Understanding level of the problem or issue to be addressed or
+                            condition to be improved.</p>
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Features & functionality
+                            <span class="text-[#F59321]">(Score 8/10)</span>
+                        </h2>
+                        <p class=" text-[#83807C]  mb-2">Prototype / Working Model demonstrates intended design and its
+                            functionality has been tested in multiple trials for implementation. Minimum viable product.
+                        </p>
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Social & financial impact so
+                            far <span class="text-[#F59321]">(Score 8/10)</span></h2>
+                        <p class=" text-[#83807C]  mb-2">Number of direct and indirect jobs, cumulative revenue so far,
+                            cumulative local/foreign investment so far.</p>
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Scalability/expansion plan
+                            <span class="text-[#F59321]">(Score 8/10)</span>
+                        </h2>
+                        <p class=" text-[#83807C]  mb-2">Future plans for business growth. Local/international. Exit
+                            strategy</p>
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Relevancy, Justification &
+                            Expected Benefits from Event <span class="text-[#F59321]">(Score 8/10)</span></h2>
+                        <p class=" text-[#83807C]  mb-2">Alignment between startup business objectives and relevancy and
+                            justification to attend the proposed event.</p>
+
+
+
+
+                        <h2 class="mt-4 mb-3">Remarks</h2>
+                        <div class="bg-[rgba(245,147,33,0.1)] p-4 rounded-lg">
+                            <p>
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- =================================  monthly Report end =============== -->
+
+            </div>
+
+
+
+            <div class="max-w-screen-lg mx-auto w-[900px]">
+                <div class="m-4 sm:m-8 md:m-12">
+                    <div class="bg-white rounded-lg shadow-md px-6 py-10">
+
+                        <div class="flex justify-between">
+                            <div class="flex items-center mt-10 mb-4">
+                                <a href="#" class="flex items-center text-gray-600 hover:text-gray-800">
+                                    <svg class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M10.707,5.293C10.512,5.098,10.256,5,10,5s-0.512,0.098-0.707,0.293L4.414,10l5.293,5.293C9.488,15.902,9.744,16,10,16s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L7.414,10.707l3.293-3.293C11.098,6.316,11.098,5.684,10.707,5.293z" />
+                                    </svg>
+                                    Go Back
+                                </a>
+                                <p class="text-[#F59321] ml-4 text-[20px] "><span class="text-black">Feedback by:</span>
+                                    Haroon Khan</p>
+                            </div>
+
+                        </div>
+                        <hr class="my-4">
+
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Problem identification <span
+                                class="text-[#F59321]">(Score 8/10)</span></h2>
+                        <p class=" text-[#83807C]  mb-2">The approach to solve the problem is creative. Idea is novel &
+                            unique and can be implemented. Is it some new idea or a copy of another idea?</p>
+
+                            <div class="relative sm:mr-[400px] ">
+                                <input
+                                    class="block w-full px-4 py-2 pr-[20px] border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 "
+                                    list="options" placeholder="Q1">
+                                <datalist id="options">
+                                    <option value="Option 1"></option>
+                                    <option value="Option 2"></option>
+                                    <option value="Option 3"></option>
+                                </datalist>
+            
+                                <svg class="absolute top-3 right-3 pointer-events-none h-5 w-5 text-gray-400"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                                    aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5 5 5-5"></path>
+                                </svg>
+                            </div>
+                            <!-- -------------------------------- -->
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Solution -
+                            Creativity/Innovation<span class="text-[#F59321]">(Score 8/10)</span></h2>
+                        <p class=" text-[#83807C]  mb-2">Validation of business model in quantifiable terms such as
+                            local market size, expected market share, revenue forecast, revenue generated, downloads,
+                            subscribers, investment raised, etc.</p>
+                            <div class="relative sm:mr-[400px] ">
+                                <input
+                                    class="block w-full px-4 py-2 pr-[20px] border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 "
+                                    list="options" placeholder="Q1">
+                                <datalist id="options">
+                                    <option value="Option 1"></option>
+                                    <option value="Option 2"></option>
+                                    <option value="Option 3"></option>
+                                </datalist>
+            
+                                <svg class="absolute top-3 right-3 pointer-events-none h-5 w-5 text-gray-400"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                                    aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5 5 5-5"></path>
+                                </svg>
+                            </div>
+                            <!-- -------------------------------- -->
+
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public"> Addressable Market and Size
+                            <span class="text-[#F59321]">(Score 8/10)</span>
+                        </h2>
+                        <p class=" text-[#83807C]  mb-2">Understanding level of the problem or issue to be addressed or
+                            condition to be improved.</p>
+                            <div class="relative sm:mr-[400px] ">
+                                <input
+                                    class="block w-full px-4 py-2 pr-[20px] border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 "
+                                    list="options" placeholder="Q1">
+                                <datalist id="options">
+                                    <option value="Option 1"></option>
+                                    <option value="Option 2"></option>
+                                    <option value="Option 3"></option>
+                                </datalist>
+            
+                                <svg class="absolute top-3 right-3 pointer-events-none h-5 w-5 text-gray-400"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                                    aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5 5 5-5"></path>
+                                </svg>
+                            </div>
+                            <!-- -------------------------------- -->
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Features & functionality
+                            <span class="text-[#F59321]">(Score 8/10)</span>
+                        </h2>
+                        <p class=" text-[#83807C]  mb-2">Prototype / Working Model demonstrates intended design and its
+                            functionality has been tested in multiple trials for implementation. Minimum viable product.
+                        </p>
+                        <div class="relative sm:mr-[400px] ">
+                            <input
+                                class="block w-full px-4 py-2 pr-[20px] border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 "
+                                list="options" placeholder="Q1">
+                            <datalist id="options">
+                                <option value="Option 1"></option>
+                                <option value="Option 2"></option>
+                                <option value="Option 3"></option>
+                            </datalist>
+        
+                            <svg class="absolute top-3 right-3 pointer-events-none h-5 w-5 text-gray-400"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                                aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5 5 5-5"></path>
+                            </svg>
+                        </div>
+                        <!-- -------------------------------- -->
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Social & financial impact so
+                            far <span class="text-[#F59321]">(Score 8/10)</span></h2>
+                        <p class=" text-[#83807C]  mb-2">Number of direct and indirect jobs, cumulative revenue so far,
+                            cumulative local/foreign investment so far.</p>
+                            <div class="relative sm:mr-[400px] ">
+                                <input
+                                    class="block w-full px-4 py-2 pr-[20px] border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 "
+                                    list="options" placeholder="Q1">
+                                <datalist id="options">
+                                    <option value="Option 1"></option>
+                                    <option value="Option 2"></option>
+                                    <option value="Option 3"></option>
+                                </datalist>
+            
+                                <svg class="absolute top-3 right-3 pointer-events-none h-5 w-5 text-gray-400"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                                    aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5 5 5-5"></path>
+                                </svg>
+                            </div>
+                            <!-- -------------------------------- -->
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Scalability/expansion plan
+                            <span class="text-[#F59321]">(Score 8/10)</span>
+                        </h2>
+                        <p class=" text-[#83807C]  mb-2">Future plans for business growth. Local/international. Exit
+                            strategy</p>
+                            <div class="relative sm:mr-[400px] ">
+                                <input
+                                    class="block w-full px-4 py-2 pr-[20px] border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 "
+                                    list="options" placeholder="Q1">
+                                <datalist id="options">
+                                    <option value="Option 1"></option>
+                                    <option value="Option 2"></option>
+                                    <option value="Option 3"></option>
+                                </datalist>
+            
+                                <svg class="absolute top-3 right-3 pointer-events-none h-5 w-5 text-gray-400"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                                    aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5 5 5-5"></path>
+                                </svg>
+                            </div>
+                            <!-- -------------------------------- -->
+
+                        <h2 class="text-lg font-medium mt-10 mb-5text-gray-700 font-public">Relevancy, Justification &
+                            Expected Benefits from Event <span class="text-[#F59321]">(Score 8/10)</span></h2>
+                        <p class=" text-[#83807C]  mb-2">Alignment between startup business objectives and relevancy and
+                            justification to attend the proposed event.</p>
+                            <div class="relative sm:mr-[400px] ">
+                                <input
+                                    class="block w-full px-4 py-2 pr-[20px] border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 "
+                                    list="options" placeholder="Q1">
+                                <datalist id="options">
+                                    <option value="Option 1"></option>
+                                    <option value="Option 2"></option>
+                                    <option value="Option 3"></option>
+                                </datalist>
+            
+                                <svg class="absolute top-3 right-3 pointer-events-none h-5 w-5 text-gray-400"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                                    aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10l5 5 5-5"></path>
+                                </svg>
+                            </div>
+                            <!-- -------------------------------- -->
+
+
+
+
+                        <h2 class="mt-4 mb-3">Remarks</h2>
+                        <div  >
+                       
+                            <textarea name="" id="" cols="70" rows="6" class="border rounded-lg"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- =================================  monthly Report end =============== -->
+
+
+
+
+
+
+
+
+                <button class="flex items-center   text-white bg-[rgba(245,147,33,0.25)] border-black gap-2 px-[20px] py-[11px] rounded-md">
+                   <img src="../images/eye.svg" class="w-[16.3px] h-[11.41px] ml-2" alt="">
+                    <span class="text-[#1D1812]">View related document</span>
+                  </button>
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
